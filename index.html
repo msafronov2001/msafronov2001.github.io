@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+       <meta charset="utf-8"/>
+  </head>
+  <head>
+    <title>Задание 1</title>
+  </head>
+
+  <body>
+
+    <h1>Задание 1</h1>
+<ol>
+     <li><a href="http://example.com/">
+абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+     <li><a href="https://example.com/">
+абсолютная гиперссылка на главную сайта example.com в протоколе https</a></li>
+     <li><a href="ftp://example.com/filemaxim.zip">
+ссылка на файл на сервере FTP без авторизации</a></li>
+     <li><a href="ftp://maxim:maxim2001@example.com/filemaxim.zip">
+ссылка на файл на сервере FTP с авторизацией</a></li>
+     <li><a href="https://moodle.kubsu.ru/course/view.php?id=780#bottom">
+ссылка на фрагмент страницы некоторого сайта</a></li>
+     <li><a href="#fragment">
+ссылка на фрагмент текущей страницы</a></li>
+     <li><a href="http://example.com/?color=black&window=2"
+>ссылку с двумя параметрами в URL</a></li>
+     <li>
+     <a>список ссылок основной навигации сайта с подписями title</a>
+     <ul>
+       <li><a href="http://example.com/"title="Главная страница сайта example.com">Главная страница</a></li>
+       <li><a href="http://example.com/homework/"title="Страница с домашним заданием">Домашнее задание</a></li>
+       <li><a href="http://example.com/number/"title="Страница с оцениванием домашнего задания">Оценки</a></li>
+     </ul> 
+     </li>
+     <li><a>http://example.com/</a</li>
+     <li><a href="">ссылка с пустым href</a>
+     <li><a href="http://example.com/" rel="nofollow">
+ ссылка, по которой запрещен переход поисковикам</a></li>
+     <li><a href="http://example.com"><noindex>
+запрещенная для индексации поисковиками</noindex></a></li>
+     <li><a href="https://ru.wikipedia.org/wiki/Dota_2(%D0%B8%)">контекстную в тексте абзаца</a></li>
+     <li><img src="Picture.jpg" alt="ссылка-изображение" /></li>
+     <li><img src="https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg" width="280" height="200" alt="Navigation" usemap="#Navigation">
+<map name="Navigation">
+<area shape="circle" coords="210,90,40" href="https://ru.wikipedia.org/wiki/Кошка" alt="Right">
+                        <area shape="rect" coords="30,68,100,140" href="https://ru.wikipedia.org/wiki/Кошка" alt="Left">
+                    </map>
+</a>ссылки из прямоугольных и круглых областей картинки (HTML-тег map)</li>
+     <li><a href="new.html">относительная на страницу в текущем каталоге</a></li>
+     <li><a href="./about/me">относительная на страницу в каталоге about</a></li>
+     <li><a href="../about">относительная на страницу в каталоге уровнем выше текущего</a></li>
+     <li><a href="../../about">относительная на страницу в каталоге двумя уровнями выше</a>
+</li>
+     <li><a href="/">сокращенная на главную</a></li>
+     <li><a href="/Drivers"> сокращенная ссылка на внутреннюю</a>
+</li>
+    </ol>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        Имя:<br />
+        <input name="field-name-1"
+          value=" " />
+      </label><br />
+
+      <label>
+        e-mail:<br />
+        <input name="field-email"
+          value=" "
+          type="email" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2001-01-01"
+          type="date" />
+      </label><br />
+
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Мужской" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Женский" />
+        Женский</label><br />
+
+      Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="1" />
+        1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="2" />
+        2</label><br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="3" />
+        3</label>
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="4" />
+        4</label>
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="5" />
+        5</label><br />
+
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Бессмертие">Бессмертие</option>
+          <option value="Бессмертие" 
+selected="selected">Прохождение сквозь стены</option>
+          <option value="Прохождение сквозь стены" Value="selected">Левитация</option>
+        </select>
+      </label><br />
+
+ <label>
+        Биография:<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br />
+
+
+      C контрактом ознакомлен (а):
+      <label><input type="checkbox" checked="checked"
+        name="check-1" /></label><br />
+
+      <input type="submit" value="Отправить" />
+    </form>
+
+  </body>
+
+</html> 
