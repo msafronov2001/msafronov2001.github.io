@@ -1,0 +1,37 @@
+
+
+form
+{
+    background: Cadetblue;
+    width: 480px;
+    margin: 20px auto;
+}
+nav
+{
+	background: Cadetblue;
+	text-indent: 30px;
+	padding: 10px 20px 10px 20px;
+	margin: 20px auto;
+	width: 400px;
+}
+
+#n
+{
+    background-color: Darkgreen;
+}
+
+#c
+{
+    background-color: Cornflowerblue;
+}
+
+body
+{
+	background-color: Blanchedalmond;
+}
+
+footer
+{
+	background: Cadetblue;
+}
+

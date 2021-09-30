@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta data-safe="content-type" content="text/html; charset=utf8" />
+    <title>Задание 2</title>
+    <link rel="stylesheet" type"text/css" href="style1.css"
+  </head>
+
+  <body>
+
+    <h1>Задание 2</h1>
+<header id="chap4">
+        <fieldset>
+            <img style="float: left; margin: 5px; width: 120px; height: 120px;"
+                src="https://karopka.ru/upload/iblock/cee/photo_1_1291312074.jpg">
+				<br>
+           <em><font size="7" face="Georgia">Втанке</font></em>
+			</p>
+        </fieldset>
+    </header>
+	<br>
+	
+		<nav align="center">
+            <label><h3 align="center"> Поиск по сайту</h3></label>
+			
+            <h3>
+                <a href="#chap1">Список гиперссылок / </a>
+                <a href="#chap2">Таблица танков / </a>
+                <a href="#chap3">Регистрация танкиста </a>
+            </h3>
+		</nav>
+	
+	<form id="chap1">
+        <fieldset>
+            <ol>
+                <li><a href="https://ru.wikipedia.org/wiki/Т-80_(лёгкий_танк)">информация о Т-80</a></li>
+
+                <li><a href="https://ru.wikipedia.org/wiki/Т-34">информация о Т-34</a></li>
+
+                <li><a href="https://ru.wikipedia.org/wiki/Т-54">информация о Т-54</a></li>
+
+                <li><a href="https://ru.wikipedia.org/wiki/КВ-2">информация о КВ-2</a></li>
+            </ol>
+        </fieldset>
+    </form>
+	
+	
+	<table border="2" align="center" id="chap2" cellspacing="3" cellpadding="7">
+
+        <th colspan="4" id="c"><h1>Таблица танков</h1></th>
+
+        <tr id="n">
+            <th>Танк</th>
+            <th>Тип танка</th>
+            <th>Огневая мощь</th>
+            <th>Сложность управления</th>
+        </tr>
+
+        <tr align="center" id="c">
+            <td>Т-80</td>
+            <td>легкий</td>
+            <td>5</td>
+            <td>легкая</td>
+        </tr>
+        <tr align="center" id="n">
+            <td>Т-34</td>
+            <td>средний</td>
+            <td>15</td>
+            <td>средняя</td>
+        </tr>
+        <tr align="center" id="c">
+            <td>Т-54</td>
+            <td>средний</td>
+            <td>30.</td>
+            <td>Сложная</td>
+        </tr>
+		<tr align="center" id="n">
+            <td>КВ-2</td>
+            <td>тяжелый</td>
+            <td>50</td>
+            <td>impossible</td>
+        </tr>
+
+    </table>
+
+    <form action="/"
+      method="POST">
+    <p id="chap3"</p>
+
+      <label>
+        Имя танксиста:<br />
+        <input name="field-name-1"
+          value=" " />
+      </label><br />
+
+      <label>
+        e-mail:<br />
+        <input name="field-email"
+          value=" "
+          type="email" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2001-01-01"
+          type="date" />
+      </label><br />
+
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Мужской" />
+        Мужской</label><br />
+
+      Выбранный танк:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Т-80" />
+        Т-80</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Т-34" />
+        Т-34</label><br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Т-54" />
+        Т-54</label>
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="КВ-2" />
+        КВ-2</label>
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Пойду пешком" />
+        Пойду пешком</label><br />
+
+      <label>
+        Выбор специальности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Механик-водитель">Механик-водитель</option>
+          <option value="Радист">Радист</option> 
+           selected="selected">Механик-водитель</option>
+          <option value="Заряжающий" Value="selected">Заряжающий</option>
+        </select>
+      </label><br />
+
+ <label>
+        Расскажи о себе:<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br />
+
+
+      Согласен со всеми правилами (а):
+      <label><input type="checkbox" checked="checked"
+        name="check-1" /></label><br />
+
+      <input type="submit" value="Отправить" />
+    </form>
+<footer align="center">
+    <fieldset>
+        <h3>
+            (с) Сафронов Максим 2021
+        </h3>
+    </fieldset>
+</footer>
+
+  </body>
+
+</html> 
