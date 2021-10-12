@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Java script</title>
+        <link rel="stylesheet" href="style5.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h2>Калькулятор стоимости заказа</h2>
+                <label>Введите цену товара:<br><input type="text" id="price" placeholder="0" oninput="this.value = this.value.replace(/[^0-9]/g, '')"><br></label>
+                <label>Введите количество товара:<br><input type="text" id="count" placeholder="0" oninput="this.value = this.value.replace(/[^0-9]/g, '')"><br></label>
+                <input type="button" value="Подсчитать стоимость" id="button" onClick="st();">
+            </fieldset>
+        </form>
+        <br>
+        <p>Итого:</p><div id="result"></div>
+        <script src="java.js" defer></script>
+    </body>
+</html>
