@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Калькулятор цен </title>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style6.css">
+
+<script src="java6.js"></script>
+
+<meta>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+    
+	
+    <form>
+	
+	<div align="center">
+
+		<h1>Калькулятор масла для автомобиля</h1>
+
+	</div>
+	
+      <div>Выберите тип масла</div>
+      <select name="prodType">
+        <option value="0">Не выбрано</option>
+        <option value="1">Масло в редуктор</option>
+        <option value="2">Масло в коробку</option>
+        <option value="3">Масло в двигатель</option>
+      </select>
+      <div id="radios">
+        <label><input type="radio" name="prodOptions" value="option1">Масло в АКПП</label>
+        <label><input type="radio" name="prodOptions" value="option2"  checked="checked">Масло в МКПП</label>
+      </div>
+      <div id="checkboxes">
+		Добавить соус?<br>
+        <label><input type="checkbox" name="prodM">5w-30</label>
+        <label><input type="checkbox" name="prodM2">С присадками</label>
+        <label><input type="checkbox" name="prodM3">Зарубежное</label>
+		</div>
+   
+		<div>Количество:<br></div>
+        <input id="input" type="number" min="1" max="100" step="1" value="1">
+        <br>
+        К оплате:<div id="prodPrice"></div>
+		
+  
+   </form>
+  
+  </body>
+  
+  </html>
