@@ -48,7 +48,7 @@ ul>li {
 .hero {
   height: 100vh;
   min-height: 650px;
-  background: url('./img/bg/hero.jpg') center center / cover no-repeat;
+  background: url('./hero.jpg') center center / cover no-repeat;
   margin-bottom: 0px;
 }
 
@@ -159,7 +159,7 @@ ul>li {
 
 
 .fade-slider__item--style-tshirts {
-  background-image: url("./img/content/hero/slider_pic_1.png");
+  background-image: url("./slider_pic_1.png");
 }
 
 .fade-slider__item--style-tshirts .fade-slider__text {
@@ -169,7 +169,7 @@ ul>li {
 }
 
 .fade-slider__item--style-games {
-  background-image: url("./img/content/hero/slider_pic_2.png");
+  background-image: url("./slider_pic_2.png");
 }
 
 .fade-slider__item--style-games .fade-slider__text {
@@ -183,7 +183,7 @@ ul>li {
 }
 
 .fade-slider__item--style-presents {
-  background-image: url("./img/content/hero/slider_pic_3.png");
+  background-image: url("./slider_pic_3.png");
 }
 
 .fade-slider__item--style-presents .fade-slider__text {
@@ -323,28 +323,28 @@ ul>li {
 }
 
 .modal {
-    position: fixed; /* фиксированное положение */
+    position: fixed; /* ГґГЁГЄГ±ГЁГ°Г®ГўГ Г­Г­Г®ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ */
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.5); /* цвет фона */
+    background: rgba(0,0,0,0.5); /* Г¶ГўГҐГІ ГґГ®Г­Г  */
     z-index: 1050;
-    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    opacity: 0; /* ГЇГ® ГіГ¬Г®Г«Г·Г Г­ГЁГѕ Г¬Г®Г¤Г Г«ГјГ­Г®ГҐ Г®ГЄГ­Г® ГЇГ°Г®Г§Г°Г Г·Г­Г® */
     -webkit-transition: opacity 200ms ease-in;
     -moz-transition: opacity 200ms ease-in;
-    transition: opacity 200ms ease-in; /* анимация перехода */
-    pointer-events: none; /* элемент невидим для событий мыши */
+    transition: opacity 200ms ease-in; /* Г Г­ГЁГ¬Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  */
+    pointer-events: none; /* ГЅГ«ГҐГ¬ГҐГ­ГІ Г­ГҐГўГЁГ¤ГЁГ¬ Г¤Г«Гї Г±Г®ГЎГ»ГІГЁГ© Г¬Г»ГёГЁ */
     margin: 0;
     padding: 0;
 }
-    /* при отображении модального окно */
+    /* ГЇГ°ГЁ Г®ГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГЁ Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г® */
     .modal:target {
-        opacity: 1; /* делаем окно видимым */
-        pointer-events: auto; /* элемент видим для событий мыши */
-        overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+        opacity: 1; /* Г¤ГҐГ«Г ГҐГ¬ Г®ГЄГ­Г® ГўГЁГ¤ГЁГ¬Г»Г¬ */
+        pointer-events: auto; /* ГЅГ«ГҐГ¬ГҐГ­ГІ ГўГЁГ¤ГЁГ¬ Г¤Г«Гї Г±Г®ГЎГ»ГІГЁГ© Г¬Г»ГёГЁ */
+        overflow-y: auto; /* Г¤Г®ГЎГ ГўГ«ГїГҐГ¬ ГЇГ°Г®ГЄГ°ГіГІГЄГі ГЇГ® y, ГЄГ®ГЈГ¤Г  ГЅГ«ГҐГ¬ГҐГ­ГІ Г­ГҐ ГЇГ®Г¬ГҐГ№Г ГҐГІГ±Гї Г­Г  Г±ГІГ°Г Г­ГЁГ¶Гі */
     }
-/* ширина модального окна и его отступы от экрана */
+/* ГёГЁГ°ГЁГ­Г  Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г  ГЁ ГҐГЈГ® Г®ГІГ±ГІГіГЇГ» Г®ГІ ГЅГЄГ°Г Г­Г  */
 .modal-dialog {
     position: relative;
     width: auto;
@@ -354,10 +354,10 @@ ul>li {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 500px;
-        margin: 30px auto; /* для отображения модального окна по центру */
+        margin: 30px auto; /* Г¤Г«Гї Г®ГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГї Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г  ГЇГ® Г¶ГҐГ­ГІГ°Гі */
     }
 }
-/* свойства для блока, содержащего контент модального окна */
+/* Г±ГўГ®Г©Г±ГІГўГ  Г¤Г«Гї ГЎГ«Г®ГЄГ , Г±Г®Г¤ГҐГ°Г¦Г Г№ГҐГЈГ® ГЄГ®Г­ГІГҐГ­ГІ Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г  */
 .modal-content {
     position: relative;
     display: -webkit-box;
@@ -383,7 +383,7 @@ ul>li {
         box-shadow: 0 5px 15px rgba(0,0,0,.5);
     }
 }
-/* свойства для заголовка модального окна */
+/* Г±ГўГ®Г©Г±ГІГўГ  Г¤Г«Гї Г§Г ГЈГ®Г«Г®ГўГЄГ  Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г  */
 .modal-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -408,7 +408,7 @@ ul>li {
     font-size: 1.25rem;
     font-weight: 500;
 }
-/* свойства для кнопки "Закрыть" */
+/* Г±ГўГ®Г©Г±ГІГўГ  Г¤Г«Гї ГЄГ­Г®ГЇГЄГЁ "Г‡Г ГЄГ°Г»ГІГј" */
 .close {
     float: right;
     font-family: sans-serif;
@@ -420,14 +420,14 @@ ul>li {
     opacity: .5;
     text-decoration: none;
 }
-    /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+    /* Г±ГўГ®Г©Г±ГІГўГ  Г¤Г«Гї ГЄГ­Г®ГЇГЄГЁ "Г‡Г ГЄГ°Г»ГІГј" ГЇГ°ГЁ Г­Г ГµГ®Г¦Г¤ГҐГ­ГЁГЁ ГҐВё Гў ГґГ®ГЄГіГ±ГҐ ГЁГ«ГЁ Г­Г ГўГҐГ¤ГҐГ­ГЁГЁ */
     .close:focus, .close:hover {
         color: #000;
         text-decoration: none;
         cursor: pointer;
         opacity: .75;
     }
-/* свойства для блока, содержащего основное содержимое окна */
+/* Г±ГўГ®Г©Г±ГІГўГ  Г¤Г«Гї ГЎГ«Г®ГЄГ , Г±Г®Г¤ГҐГ°Г¦Г Г№ГҐГЈГ® Г®Г±Г­Г®ГўГ­Г®ГҐ Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ Г®ГЄГ­Г  */
 .modal-body {
     position: center;
     -webkit-box-flex: 1;
