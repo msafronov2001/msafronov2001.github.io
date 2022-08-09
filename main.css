@@ -441,7 +441,10 @@ ul>li {
 @media screen and (max-width: 800px) {
 
     .wrapper {
-        width: 100%;
+        width: 740px;
+    }
+    .hero {
+        min-height: 921px;
     }
 
     .logo {
@@ -454,11 +457,11 @@ ul>li {
 
     .header {
         padding: 84px;
-        margin-left: 43px;
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
+
     .mail {
         margin-right: 120px;
     }
@@ -467,9 +470,6 @@ ul>li {
         margin-left: -30px;
     }
 
-        .maintel:nth-child(2) {
-            order: -1;
-        }
 
         .maintel:nth-child(2) {
             margin-top: -50px;
@@ -487,10 +487,9 @@ ul>li {
         }
 
     .container1 {
-        height: 600px;
-        justify-content: start;
+        width: 600px;
+        justify-content: space-between;
         align-items: start;
-        flex-direction: column;
     }
 
     .fade-slider__item--style-tshirts .fade-slider__text {
