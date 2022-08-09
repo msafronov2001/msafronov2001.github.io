@@ -438,7 +438,7 @@ ul>li {
     overflow: auto;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 800px){
 
     .wrapper {
         width: 100%;
