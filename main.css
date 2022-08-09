@@ -438,83 +438,103 @@ ul>li {
     overflow: auto;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
     .wrapper {
         width: 100%;
     }
+
     .logo {
-        margin-left:-80px;
+        margin-left: -80px;
     }
+
     .htel {
         margin: -10px;
     }
+
     .header {
-        margin:100px;
+        padding: 84px;
+        margin-left: 43px;
         justify-content: start;
         align-items: start;
         flex-direction: column;
     }
-    .maintel{
-        margin-left:-30px;
+    .mail {
+        margin-right: 120px;
     }
-    .maintel:nth-child(2) {
-        order: -1;
+
+    .maintel {
+        margin-left: -30px;
     }
-    .maintel:nth-child(2) {
-        margin-top: -50px;
-        margin-bottom: 5px;
-    }
-    .maintel:nth-child(3) {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .maintel:nth-child(1) {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+
+        .maintel:nth-child(2) {
+            order: -1;
+        }
+
+        .maintel:nth-child(2) {
+            margin-top: -50px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(3) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(1) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
     .container1 {
         height: 600px;
-        justify-content:start;
-        align-items:start;
+        justify-content: start;
+        align-items: start;
         flex-direction: column;
     }
+
     .fade-slider__item--style-tshirts .fade-slider__text {
         left: 50%;
         bottom: 0;
         transform: translateX(-50%) translateY(30%);
     }
+
     .fade-slider__item--style-games .fade-slider__text {
         left: 50%;
         bottom: 0;
         transform: translateX(-50%) translateY(50%);
     }
+
     .fade-slider__item--style-presents .fade-slider__text {
         left: 50%;
         bottom: 0;
         transform: translateX(-50%) translateY(50%);
     }
+
     .fade-slider__item {
-        margin-top: 470px;
+        margin-top: 360px;
         width: 36%;
         height: 36%;
-        margin-left: 375px;
+        margin-left: 368px;
     }
+
     .lined-text__word {
-        font-size:30px
+        font-size: 30px
     }
 
     .container {
         width: 420px;
     }
-    .site-menu__sections {
 
+    .site-menu__sections {
         justify-content: start;
         position: relative;
     }
+
     .site-menu__title {
         font-size: 15px;
     }
+
     .site-menu__text {
         font-size: 12px;
     }
