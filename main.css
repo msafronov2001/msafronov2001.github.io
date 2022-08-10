@@ -438,11 +438,12 @@ ul>li {
     overflow: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-device-width: 375px) {
 
     .wrapper {
-        width: 740px;
+        width: 100%;
     }
+
     .hero {
         min-height: 921px;
     }
@@ -455,10 +456,17 @@ ul>li {
         margin: -10px;
     }
 
+    .hero__content {
+        max-width: 230px;
+        max-height: 230px;
+        margin-top: 245px;
+    }
+
     .header {
         padding: 84px;
-        justify-content: center;
-        align-items: center;
+        margin-left: 35px;
+        justify-content: start;
+        align-items: start;
         flex-direction: column;
     }
 
@@ -470,6 +478,9 @@ ul>li {
         margin-left: -30px;
     }
 
+        .maintel:nth-child(2) {
+            order: -1;
+        }
 
         .maintel:nth-child(2) {
             margin-top: -50px;
@@ -487,9 +498,10 @@ ul>li {
         }
 
     .container1 {
-        width: 600px;
-        justify-content: space-between;
+        height: 600px;
+        justify-content: start;
         align-items: start;
+        flex-direction: column;
     }
 
     .fade-slider__item--style-tshirts .fade-slider__text {
@@ -511,10 +523,10 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: 360px;
-        width: 36%;
-        height: 36%;
-        margin-left: 368px;
+        margin-top: 20px;
+        width: 150%;
+        height: 100%;
+        margin-left: -52px;
     }
 
     .lined-text__word {
@@ -522,12 +534,17 @@ ul>li {
     }
 
     .container {
-        width: 420px;
+        width: 350px;
+        margin-left: 5px;
     }
 
     .site-menu__sections {
         justify-content: start;
         position: relative;
+    }
+
+    .site-menu__col {
+        margin-right: 80px;
     }
 
     .site-menu__title {
@@ -536,5 +553,619 @@ ul>li {
 
     .site-menu__text {
         font-size: 12px;
+    }
+}
+@media (min-device-width: 376px) and (max-device-width: 390px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .hero {
+        min-height: 921px;
+    }
+
+    .logo {
+        margin-left: -80px;
+    }
+
+    .htel {
+        margin: -10px;
+    }
+
+    .hero__content {
+        max-width: 230px;
+        max-height: 230px;
+        margin-top: 245px;
+    }
+
+    .header {
+        padding: 84px;
+        margin-left: 35px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .mail {
+        margin-right: 120px;
+    }
+
+    .maintel {
+        margin-left: -30px;
+    }
+
+        .maintel:nth-child(2) {
+            order: -1;
+        }
+
+        .maintel:nth-child(2) {
+            margin-top: -50px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(3) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(1) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+    .container1 {
+        height: 600px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item {
+        margin-top: -60px;
+        width: 150%;
+        height: 100%;
+        margin-left: -52px;
+    }
+
+    .lined-text__word {
+        font-size: 30px
+    }
+
+    .container {
+        width: 350px;
+        margin-left: 5px;
+    }
+
+    .site-menu__sections {
+        justify-content: start;
+        position: relative;
+    }
+
+    .site-menu__col {
+        margin-right: 80px;
+    }
+
+    .site-menu__title {
+        font-size: 15px;
+    }
+
+    .site-menu__text {
+        font-size: 12px;
+    }
+}
+@media (min-device-width: 391px) and (max-device-width: 415px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .hero {
+        min-height: 921px;
+    }
+
+    .logo {
+        margin-left: -80px;
+    }
+
+    .htel {
+        margin: -10px;
+    }
+
+    .hero__content {
+        max-width: 230px;
+        max-height: 230px;
+        margin-top: 245px;
+    }
+
+    .header {
+        padding: 84px;
+        margin-left: 52px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .mail {
+        margin-right: 120px;
+    }
+
+    .maintel {
+        margin-left: -30px;
+    }
+
+        .maintel:nth-child(2) {
+            order: -1;
+        }
+
+        .maintel:nth-child(2) {
+            margin-top: -50px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(3) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(1) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+    .container1 {
+        height: 600px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item {
+        margin-top: -88px;
+        width: 150%;
+        height: 100%;
+        margin-left: -52px;
+    }
+
+    .lined-text__word {
+        font-size: 30px
+    }
+
+    .container {
+        width: 428px;
+        margin-left: 5px;
+    }
+
+    .site-menu__sections {
+        justify-content: start;
+        position: relative;
+    }
+
+    .site-menu__col {
+        margin-right: 80px;
+    }
+
+    .site-menu__title {
+        font-size: 15px;
+    }
+
+    .site-menu__text {
+        font-size: 12px;
+    }
+}
+@media (min-device-width: 416px) and (max-device-width: 540px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .hero {
+        min-height: 921px;
+    }
+
+    .logo {
+        margin-left: -80px;
+    }
+
+    .htel {
+        margin: -10px;
+    }
+
+    .hero__content {
+        max-width: 230px;
+        max-height: 230px;
+        margin-top: 245px;
+    }
+
+    .header {
+        padding: 84px;
+        margin-left: 117px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .mail {
+        margin-right: 120px;
+    }
+
+    .maintel {
+        margin-left: -30px;
+    }
+
+        .maintel:nth-child(2) {
+            order: -1;
+        }
+
+        .maintel:nth-child(2) {
+            margin-top: -50px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(3) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .maintel:nth-child(1) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+    .container1 {
+        height: 600px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item {
+        margin-top: -11px;
+        width: 200%;
+        height: 120%;
+        margin-left: -111px;
+    }
+
+    .lined-text__word {
+        font-size: 30px
+    }
+
+    .container {
+        width: 507px;
+        margin-left: 5px;
+    }
+
+    .site-menu__sections {
+        justify-content: start;
+        position: relative;
+    }
+
+    .site-menu__col {
+        margin-right: 234px;
+    }
+
+    .site-menu__title {
+        font-size: 15px;
+    }
+
+    .site-menu__text {
+        font-size: 12px;
+    }
+}
+@media (min-device-width: 912px) and (max-device-width: 1024px) {
+    .hero {
+        height: 997px;
+    }
+
+    .container1 {
+        margin-top: 130px;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .hero__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 500px;
+        height: 40%;
+    }
+
+    .fade-slider__item {
+        width: 150%;
+        height: 100%;
+        margin-left: -123px;
+        margin-top: -251px;
+    }
+
+    .fade-slider {
+        margin-top: 150px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .mail {
+        margin-top: -364px;
+        height: 72px;
+    }
+}
+@media (min-device-width: 844px) and (max-device-width: 911px) {
+    .hero {
+        height: 997px;
+    }
+
+    .container1 {
+        margin-top: 130px;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .hero__content {
+        width: 840px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item {
+        width: 100%;
+        height: 150%;
+        margin-left: 23px;
+        margin-top: 19px;
+    }
+
+    .fade-slider {
+        margin-top: 150px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .mail {
+        margin-top: -364px;
+        height: 72px;
+    }
+}
+@media (min-device-width: 768px) and (max-device-width: 843px) {
+    .hero {
+        height: 997px;
+    }
+    .container1{
+        margin-top:130px;
+    }
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+    .hero__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 500px;
+        height: 40%;
+    }
+    .fade-slider__item {
+        width: 150%;
+        height: 100%;
+        margin-left: -123px;
+        margin-top: -43px;
+    }
+    .fade-slider {
+        margin-top: 150px;
+        width: 100%;
+        height: 50%;
+    }
+    .mail {
+        margin-top: -364px;
+        height: 72px;
+    }
+}
+@media (min-device-width: 667px) and (max-device-width: 767px) {
+    .hero {
+        height: 997px;
+    }
+
+    .container1 {
+        margin-top: 130px;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .hero__content {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 500px;
+        height: 40%;
+    }
+
+    .fade-slider__item {
+        width: 120%;
+        height: 220%;
+        margin-left: -41px;
+        margin-top: 6px;
+    }
+
+    .fade-slider {
+        width: 120%;
+        height: 220%;
+        margin-left: -41px;
+        margin-top: 6px;
+    }
+
+    .mail {
+        margin-top: -435px;
+        height: 72px;
+    }
+}
+@media (min-device-width: 541px) and (max-device-width: 666px) {
+    .hero {
+        height: 997px;
+    }
+
+    .container1 {
+        margin-top: 130px;
+    }
+
+    .fade-slider__item--style-tshirts .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(30%);
+    }
+
+    .fade-slider__item--style-games .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .fade-slider__item--style-presents .fade-slider__text {
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(50%);
+    }
+
+    .hero__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 500px;
+        height: 40%;
+    }
+
+    .fade-slider__item {
+        width: 150%;
+        height: 100%;
+        margin-left: -123px;
+        margin-top: -51px;
+    }
+
+    .fade-slider {
+        margin-top: 150px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .mail {
+        margin-top: -364px;
+        height: 72px;
     }
 }
