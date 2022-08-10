@@ -523,7 +523,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: -26px;
+        margin-top: 1px;
         width: 120%;
         height: 80%;
         margin-left: -25px;
