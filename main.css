@@ -523,7 +523,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: 1px;
+        margin-top: 30px;
         width: 120%;
         height: 80%;
         margin-left: -25px;
@@ -640,7 +640,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: 20px;
+        margin-top: 50px;
         width: 150%;
         height: 100%;
         margin-left: -52px;
@@ -757,7 +757,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: -73px;
+        margin-top: -25px;
         width: 150%;
         height: 100%;
         margin-left: -52px;
@@ -874,7 +874,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: 20px;
+        margin-top: 15px;
         width: 150%;
         height: 100%;
         margin-left: -52px;
@@ -992,7 +992,7 @@ ul>li {
     }
 
     .fade-slider__item {
-        margin-top: -11px;
+        margin-top: 20px;
         width: 200%;
         height: 120%;
         margin-left: -111px;
