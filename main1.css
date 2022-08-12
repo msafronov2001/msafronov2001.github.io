@@ -46,7 +46,7 @@ ul {
 .hero {
     height: 100vh;
     min-height: 650px;
-    background: url('./img/bg/hero.jpg') center center / cover no-repeat;
+    background: url('./hero.jpg') center center / cover no-repeat;
     margin-bottom: 0px;
 }
 
