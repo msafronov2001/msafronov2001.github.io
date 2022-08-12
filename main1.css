@@ -868,9 +868,9 @@ ul {
         margin-top: 115px;
     }
 }
-@media (min-device-width: 844px) and (max-device-width: 911px) {
+@media (min-device-width: 844px) and (max-device-width: 911px) and (orientation: landscape) {
     .hero {
-        height: 997px;
+        height: 600px;
     }
 
     .container1 {
